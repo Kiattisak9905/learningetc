@@ -2,11 +2,11 @@
 // import { useNavigate } from 'react-router-dom'
 
 // export default function Dashboard() {
-  
+
 //   const navigate = useNavigate()
 
 //   const Linkref = useRef(null)
-  
+
 //   const [number, setnumber] = useState(0)
 //   const [number2, setnumber2] = useState(0)
 
@@ -29,14 +29,13 @@
 //   )
 // }
 
-import * as React from 'react';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
-import ListSubheader from '@mui/material/ListSubheader';
-import IconButton from '@mui/material/IconButton';
-import InfoIcon from '@mui/icons-material/Info';
-
+import * as React from 'react'
+import ImageList from '@mui/material/ImageList'
+import ImageListItem from '@mui/material/ImageListItem'
+import ImageListItemBar from '@mui/material/ImageListItemBar'
+import ListSubheader from '@mui/material/ListSubheader'
+import IconButton from '@mui/material/IconButton'
+import InfoIcon from '@mui/icons-material/Info'
 
 export default function TitlebarImageList() {
   return (
@@ -67,7 +66,7 @@ export default function TitlebarImageList() {
         </ImageListItem>
       ))}
     </ImageList>
-  );
+  )
 }
 
 const itemData = [
@@ -142,6 +141,4 @@ const itemData = [
     author: '@southside_customs',
     cols: 2,
   },
-];
-
-
+]
